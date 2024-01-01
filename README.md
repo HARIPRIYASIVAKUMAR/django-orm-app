@@ -35,20 +35,8 @@ list_display=
 admin.py
 from django.contrib import admin
 from .models import Student, StudentAdmin
-admin.site.register(Student,StudentAdmin
-class Student (models.Model):
-referencenumber=models.CharField(max_length=20,help_text="reference 
-number")
- name=models.CharField(max_length=100)
- age=models.IntegerField()
- email=models.EmailField()
- mobileno=models.IntegerField()
-class StudentAdmin(admin.ModelAdmin):
- list_display=
-('referencenumber','name','age','email','mobileno')
- admin.py
- from django.contrib import admin
-from .models import Student, StudentAdmin
+README License
+
 # Register your models here.
 admin.site.register(Student,StudentAdmin)
 ## OUTPUT
