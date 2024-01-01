@@ -18,6 +18,7 @@ Enter the code for admin.py and models.py
 Write your own steps
 
 ## PROGRAM
+```
 models.py
 from django.db import models
 from django.contrib import admin
@@ -35,10 +36,9 @@ list_display=
 admin.py
 from django.contrib import admin
 from .models import Student, StudentAdmin
-README License
-
 # Register your models here.
 admin.site.register(Student,StudentAdmin)
+```
 ## OUTPUT
 
 ![image](https://github.com/HARIPRIYASIVAKUMAR/django-orm-app/assets/147477684/ea547edd-bf17-4006-a05d-54e8e41338cd)
